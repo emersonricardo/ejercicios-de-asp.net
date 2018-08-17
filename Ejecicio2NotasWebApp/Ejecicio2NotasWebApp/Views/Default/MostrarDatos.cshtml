@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "MostrarDatos";
+}
+
+<h2>MostrarDatos</h2>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col"> Nombre Estudiante</th>
+            <th scope="col"> Apellido Estudiante</th>
+            <th scope="col"> Materia Matematicas</th>
+            <th scope="col"> Materia Ciencia</th>
+            <th scope="col"> Materia Lenguaje</th>
+            <th scope="col"> Materia Tecnologia</th>
+            <th scope="col"> Estado</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">@ViewBag.nombre</th>
+            <th scope="row">@ViewBag.apellido</th>
+            <th scope="row">@ViewBag.mate</th>
+            <th scope="row">@ViewBag.Ciencia</th>
+            <th scope="row">@ViewBag.lenguaje</th>
+            <th scope="row">@ViewBag.Tecno</th>
+        </tr>
+    </tbody>
+</table>
+
+
